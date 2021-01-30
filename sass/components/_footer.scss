@@ -1,0 +1,200 @@
+footer{
+    margin-top: 150px;
+    text-align: center;
+    background-image: url("../img/footer.png");
+    background-position-y: bottom ;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    h2{
+        font-weight: lighter;
+        font-size: 40px;
+    }
+
+    input{
+        background-color: $lightgrey;
+        border: none;
+        min-width: 400px;
+        font-size: 15px;
+        padding: 20px;
+        margin-top: 50px;
+    }
+
+    #footer-links{
+        width: 80%;
+        margin: auto;
+        margin-top: 400px;
+        padding-bottom: 100px;
+        color: $white;
+        display: flex;
+        justify-content: space-around;
+
+        div:not(#socials-networks){
+            text-align: left;
+
+            h2, h3, h4{
+                color: $white;
+            }
+        }
+    }
+
+}
+
+#socials-networks{
+    text-align: center;
+
+    h2,h3{
+        text-transform: none;
+        color: $white,
+    }
+
+    h2{
+        font-size: 50px;
+    }
+
+    h3{
+        font-size: 35px;
+        margin-top: 20px;
+    }
+
+    #socials-networks-logos{
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-between;
+        
+        img{
+            color: $white;
+            &:hover{
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+#days-list{
+    display: flex;
+
+    ul:nth-child(2){
+        margin-left: 25px;
+    }
+}
+
+@media screen and (max-width: 640px){
+    footer{
+        margin-top: 50px;
+        background-image: none;        
+
+        h2{
+            margin: 0 10%;
+        }
+
+        h5{
+            font-size: 30px;
+            margin-bottom: 30px;
+        }
+
+        input{
+            min-width: 0px;
+            width: 75%;
+            padding: 20px;
+        }
+
+        #drop-mail{
+            button{
+                margin-top: 50px;
+                margin-left: 0;
+            }
+        }
+
+        #footer-links{
+            margin-top: 100px;
+            width: 100%;
+            background-image: $blueDegrade;
+            flex-direction: column;
+
+            div:not(#social-networks){
+                text-align: center;
+                justify-content: center;
+            }
+
+            div{
+                margin: 30px 0px;
+            }
+
+            #socials-networks{
+                margin: auto;
+
+                h2{
+                    margin-top: 30px;
+                }
+
+                #socials-networks-logos{
+                    justify-content: space-around;
+
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 640px) and (max-width: 1024px){
+    footer{
+        margin-top: 50px;
+        background-image: none;        
+
+        h2{
+            margin: 0 10%;
+        }
+
+        h5{
+            font-size: 30px;
+            margin-bottom: 30px;
+        }
+
+        input{
+            min-width: 0px;
+            width: 75%;
+            padding: 20px;
+        }
+
+        #drop-mail{
+            button{
+                margin-top: 50px;
+                margin-left: 0;
+            }
+        }
+
+        #footer-links{
+            margin-top: 100px;
+            width: 100%;
+            background-image: $blueDegrade;
+            flex-direction: column;
+
+            div:not(#social-networks){
+                text-align: center;
+                justify-content: center;
+            }
+
+            div{
+                margin: 30px 0px;
+            }
+
+            #socials-networks{
+                margin: auto;
+
+                h2{
+                    margin-top: 30px;
+                }
+
+                #socials-networks-logos{
+                    justify-content: space-around;
+
+                }
+            }
+        }
+    }
+}
+
+
+
+    

@@ -1,0 +1,62 @@
+h1{
+    font-family: $Poppins;
+    font-size: 70px;
+}
+
+h2{
+    font-family: $Poppins;
+    font-size: 50px;
+    font-weight: bold;
+    color: $grey;
+}
+
+h3{
+    text-transform: uppercase;
+    font-family: $Poppins;
+    color: $purple;
+    font-size: 30px;
+    font-weight: lighter;
+
+
+}
+
+h4{
+    text-transform: uppercase;
+    font-family: $Poppins;
+    color: $grey;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+
+h5{
+    font-family: $Lobster;
+    color: $purple;
+    font-size: 20px;
+    font-weight: lighter;
+    
+}
+
+p{
+    font-family: $Poppins;
+}
+
+ul{
+    list-style: none;
+
+    li{
+        font-family: $Poppins;
+        font-size: 20px;
+        margin: 10px 0px;
+        
+    }
+}
+
+a{
+    color: $white;
+    text-decoration: none;
+}
+
+#bold{
+    font-weight: bold;
+}

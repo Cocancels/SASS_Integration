@@ -1,0 +1,51 @@
+header{
+    width: 100%;
+    display: flex;
+    
+    #marketing{
+        width: 50%;
+        display: flex;
+        align-items: flex-start;
+
+
+        img{
+            height: 70%;
+        }
+
+        p{
+
+            color: $black;
+            margin-left: 20px;
+            display: flex;
+            align-self:center;
+            font-size: 40px;
+            font-weight: bold;
+
+        }
+    }
+}
+
+@media screen and (max-width: 640px){
+    header{
+        background-image: $blueDegrade;
+        display: block;
+
+        #marketing{
+            display: none;
+        }
+    }
+}
+
+@media screen and (min-width: 640px) and (max-width: 1024px){
+    header{
+    #marketing{
+        align-items: center;
+        width: 40%;
+        flex-direction: column;
+
+        p{
+            font-size: 30px;
+        }
+    }
+}
+}

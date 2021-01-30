@@ -1,0 +1,26 @@
+main{
+    width: 80%;
+    margin: auto;
+}
+
+@media screen and (max-width: 640px){
+    main{
+        text-align: center;
+        margin-top: 200px;
+
+        h2{
+            margin-top: 30px;
+            font-size: 40px;
+        }
+    }
+}
+
+@media screen and (min-width: 640px) and (max-width: 1024px){
+    main{
+        width: auto;
+
+        h3, h2{
+            margin-left: 10%;
+        }
+    }
+}
